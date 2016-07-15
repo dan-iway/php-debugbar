@@ -271,7 +271,7 @@ if (typeof(PhpDebugBar) == 'undefined') {
                     if (!value.is_string) {
                         prettyVal = null;
                     }
-                    li.css('cursor', 'pointer').click(function() {
+                    li.css('cursor', 'pointer').dblclick(function() {
                         if (val.hasClass(csscls('pretty'))) {
                             val.text(m).removeClass(csscls('pretty'));
                         } else {
